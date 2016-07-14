@@ -1,0 +1,36 @@
+/* Alignment & Visibility Classes */
+
+table.center, td.center {
+  text-align: center;
+}
+
+h1.center, p.h1.center,
+h2.center, p.h2.center,
+h3.center, p.h3.center,
+h4.center, p.h4.center,
+h5.center, p.h5.center,
+h6.center, p.h6.center {
+  text-align: center;
+}
+
+span.center {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+img.center {
+  Margin: 0 auto;
+  float: none;
+}
+
+.show-for-small,
+.hide-for-desktop {
+  display: none;
+}
+
+
+.ib-fix {
+  font-size:0;
+  text-align:center;
+}/* set on parent above column to remove browser space on inline-block elements */

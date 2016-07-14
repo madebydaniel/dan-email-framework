@@ -1,0 +1,33 @@
+/*  Media Queries */
+
+@media only screen and (max-width: 600px) {
+
+  .one { max-width: 25%; }
+  .two { max-width: 25%; }
+  .three { max-width: 50%; }
+  .four { max-width: 50%; }
+  .five { max-width: 100%; }
+  .six { max-width: 100%; }
+  .seven { max-width: 100%; }
+  .eight { max-width: 100%; }
+  .nine { max-width: 100%; }
+  .ten { max-width: 100%; }
+  .eleven { max-width: 100%; }
+  .twelve { max-width: 100%; }
+
+  .hero {
+    td.logo {
+      text-align:center;
+      img {
+        Margin: 0px auto 40px;
+      }
+    }
+    .column {
+      text-align:center;
+      table {
+        Margin:0 auto;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,120 @@
+/* Typography */
+
+body, table.body, h1, h2, h3, h4, h5, h6, p, td {
+  font-family: $base-font-family;
+  font-weight: $base-font-weight;
+  padding:0;
+  Margin: 0;
+  text-align: left;
+  line-height: $base-line-height;
+}
+
+
+body, table.body, p, td {
+  color: $base-font-color;
+  font-size: $base-font-size;
+  line-height: $base-line-height;
+}
+
+p {
+  &.small {
+    font-size: $small-font-size;
+  }
+  &.center {
+    text-align:center;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  word-break: normal;
+}
+
+
+h1, p.h1, a.h1 {
+  font-size: $h1-font-size;
+  font-weight: $h1-font-weight;
+  color: $heading-font-color;
+  line-height: $h1-line-height;
+  }
+
+h2, p.h2, a.h2 {
+  font-size: $h2-font-size;
+  font-weight: $h2-font-weight;
+  color: $heading-font-color;
+  line-height: $h2-line-height;
+  }
+
+h3, p.h3, a.h3 {
+  font-size: $h3-font-size;
+  font-weight: $h3-font-weight;
+  color:$heading-font-color;
+  line-height:$h3-line-height;
+  }
+
+h4, p.h4, a.h4 {
+  font-size: $h4-font-size;
+  font-weight: $h4-font-weight;
+  color:$heading-font-color;
+  line-height:$h4-line-height;
+  }
+
+h5, p.h5, a.h5 {
+  font-size: $h5-font-size;
+  font-weight: $h5-font-weight;
+  color:$heading-font-color;
+  line-height:$h5-line-height;
+  }
+
+h6, p.h6, a.h6 {
+  font-size: $h6-font-size;
+  font-weight: $h6-font-weight;
+  color:$heading-font-color;
+  line-height:$h6-line-height;
+  }
+
+p {
+  Margin-bottom: 10px;
+}
+
+small {
+  font-size: $small-font-size;
+}
+
+a, a span, a:visited {
+  color: $link-color;
+  text-decoration: none;
+}
+
+* [aria-labelledby="link-hover"]:hover,
+a:hover, a:active {
+  color: $link-hover !important;
+}
+
+
+
+h1 a, a.h1,
+h2 a, a.h2,
+h3 a, a.h3,
+h4 a, a.h4,
+h5 a, a.h5,
+h6 a, a.h6 {
+  color: $heading-font-color;
+}
+
+h1.alt-h-color, p.h1.alt-h-color,
+h2.alt-h-color, p.h2.alt-h-color,
+h3.alt-h-color, p.h3.alt-h-color,
+h4.alt-h-color, p.h4.alt-h-color,
+h5.alt-h-color, p.h5.alt-h-color,
+h6.alt-h-color, p.h6.alt-h-color {
+  color:$alt-h-color;
+}
+
+h1.light-weight, p.h1.light-weight,
+h2.light-weight, p.h2.light-weight,
+h3.light-weight, p.h3.light-weight,
+h4.light-weight, p.h4.light-weight,
+h5.light-weight, p.h5.light-weight,
+h6.light-weight, p.h6.light-weight {
+  font-weight:300;
+}

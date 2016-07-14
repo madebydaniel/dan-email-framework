@@ -1,0 +1,125 @@
+/************************
+SETTINGS VARIABLES
+************************/
+
+
+//TEMPLATE DEVELOPMENT SETTINGS
+body {
+	padding-bottom:40px !important;
+}
+
+/*
+.container, .column {
+	background:rgba(0,0,0,0.05);
+}
+*/
+
+.template-title {
+	text-align:center;
+	padding:20px 0;
+	display:block;
+	color:#cccccc;
+	font-weight:300;
+	background:#f5f5f5;
+	border:solid 1px #e5e5e5;
+	margin:30px 0px 20px;
+}
+
+
+//
+// $GRID & LAYOUT
+//
+$container-width: 580px;
+$spacer: 40px;
+$background-color: #ffffff;
+
+//
+//BASE
+//
+
+$primary-color: #373737;
+$secondary-color: #FF007E;
+
+$base-font-color: #222222;
+$heading-font-color:$primary-color;
+
+$border-color : #d9d9d9;
+
+$dark-full-width-background-color: #373737;
+$light-full-width-background-color: #d5d5d5;
+
+//
+// LINKS
+//
+$link-color : #FF007E;
+$link-hover : #900248;
+
+
+//
+// BUTTONS
+//
+
+$button-color: #ffffff;
+$button-hover-color: #ffffff;
+$button-bkgrd: $primary-color;
+$button-bkgrd-hover: $secondary-color;
+$button-border: darken($button-bkgrd, 10%);
+$button-border-hover: darken($button-bkgrd-hover, 10%);
+
+$button-secondary-color: #373737;
+$button-secondary-hover-color: #373737;
+$button-secondary-bkgrd:#dddddd;
+$button-secondary-bkgrd-hover: #cccccc;
+$button-secondary-border: darken($button-secondary-bkgrd, 10%);
+$button-secondary-border-hover: darken($button-secondary-bkgrd-hover, 10%);
+
+
+$panel-bkgrd-color: #f5f5f5;
+$panel-border-color: #e5e5e5;
+
+
+
+//
+// $TYPOGRAPHY
+//
+$light-color: #c5c5c5;
+
+$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-weight: normal;
+$base-font-size: 14px;
+$base-line-height: 19px;
+
+
+$h1-value: 40px;
+$h2-value: 32px;
+$h3-value: 28px;
+$h4-value: 21px;
+$h5-value: 16px;
+$h6-value: 12px;
+
+$h1-font-size: $h1-value + 0px;
+$h2-font-size: $h2-value + 0px;
+$h3-font-size: $h3-value + 0px;
+$h4-font-size: $h4-value + 0px;
+$h5-font-size: $h5-value + 0px;
+$h6-font-size: $h6-value + 0px;
+
+$h1-line-height: $h1-value + 10px;
+$h2-line-height: $h2-value + 10px;
+$h3-line-height: $h3-value + 8px;
+$h4-line-height: $h4-value + 7px;
+$h5-line-height: $h5-value + 5px;
+$h6-line-height: $h6-value + 5px;
+
+$h1-font-weight: bold;
+$h2-font-weight: bold;
+$h3-font-weight: bold;
+$h4-font-weight: bold;
+$h5-font-weight: bold;
+$h6-font-weight: bold;
+
+$alt-h-color: #cfcfcf;
+
+// A general <small> styling
+$small-font-size: 12px;
+$large-font-size: 18px;

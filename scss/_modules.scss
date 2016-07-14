@@ -1,0 +1,88 @@
+.hero {
+ .center {
+		text-align:center;
+	}
+	p.large {
+		font-size:$large-font-size;
+		font-weight:400;
+	}
+}
+
+
+.dark-module-split {
+  background: $primary-color;
+  .column {
+    vertical-align:middle !important;
+    text-align:center;
+  }
+  table {
+    td, td.row {
+      text-align:center !important;
+    }
+  }
+  .ms-img {
+    img {
+      width:100%;
+      height:auto;
+      Margin:0 !important;
+    }
+  }
+  .ms-content {
+    .center {
+      text-align:center;
+    }
+    p {
+      color:$light-color;
+    }
+    p.heading {
+      color:white;
+      font-weight:400;
+    }
+  }
+}
+.hero {
+	background-image: url(http://placehold.it/600x400);
+	background-size: cover;
+	background-position: 50% 0%;
+	background-color:red;/*set this for outlook*/
+}
+
+.full-width-container {
+	background-color:$light-full-width-background-color;
+	td {
+		&.center {
+			text-align:center;
+		}
+		p {
+			color:darken($light-full-width-background-color, 15%);
+		}
+		&.border {
+			padding-bottom:$spacer/2;
+			border-bottom: solid 1px darken($light-full-width-background-color, 5%);
+		}
+	}
+	&.dark{
+		background-color:$dark-full-width-background-color;
+		td {
+			p {
+				color:lighten($dark-full-width-background-color, 15%);
+			}
+			&.border {
+		    border-bottom: solid 1px darken($dark-full-width-background-color, 5%);
+		  }
+		}
+	}
+}
+
+.table-list {
+  .table-head {
+    padding: 10px 0;
+    color: darken($base-font-color, 15%);
+    font-weight: bold;
+    border-bottom: 2px solid darken($border-color, 15%);
+  }
+  .table-content {
+    padding: 10px 0;
+    border-bottom: 1px solid $border-color;
+  }
+}
